@@ -1,0 +1,88 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.pull-right {
+  float: right; }
+
+.wrapper {
+  width: 100%; }
+  .wrapper .header {
+    max-width: 1023px;
+    margin: 30px auto 0; }
+
+.header {
+  position: relative; }
+  .header .logo {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .header .logo h1 {
+      font: 33px 'Open Sans', sans-serif;
+      color: #ee8129; }
+    .header .logo span {
+      font: 700  40px 'Open Sans', sans-serif;
+      color: #3070a8; }
+
+.main-nav {
+  font: 600 14px 'Open Sans', sans-serif; }
+  .main-nav a {
+    display: block;
+    color: #989898;
+    text-transform: uppercase;
+    padding: 30px 20px 33px;
+    border-bottom: 4px solid transparent; }
+  .main-nav a:hover {
+    color: #3070a8;
+    border-bottom: 4px solid #3070a8; }
+
+.banner {
+  padding: 148px 0 0 0;
+  text-align: center;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: url(../images/banner.jpg) 0 0 no-repeat;
+  background-size: cover;
+  color: #fff; }
+  .banner p {
+    font-size: 36px; }
+  .banner h2 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    text-transform: uppercase; }
+  .banner span {
+    display: block;
+    padding: 20px 0 35px 0;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic; }
+  .banner .banner-button {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 16px 64px;
+    margin-bottom: 108px;
+    font: 600 16px 'Open Sans', sans-serif;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    cursor: pointer; }
+  .banner .banner-button:active {
+    box-shadow: 0 0 4px 0px #000 inset;
+    border: 1px solid #808080;
+    color: #808080; }
+
+/*# sourceMappingURL=all.css.map */
