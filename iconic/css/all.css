@@ -54,6 +54,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   background: url(../images/banner.jpg) 0 0 no-repeat;
   background-size: cover;
+  background-position-x: center;
   color: #fff; }
   .banner p {
     font-size: 36px; }
