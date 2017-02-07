@@ -17,7 +17,8 @@ a {
   float: right; }
 
 .wrapper {
-  width: 100%; }
+  width: 100%;
+  min-width: 910px; }
   .wrapper .header {
     max-width: 1023px;
     margin: 30px auto 0; }
@@ -27,7 +28,7 @@ a {
   .header .logo {
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 20px; }
     .header .logo h1 {
       font: 33px 'Open Sans', sans-serif;
       color: #ee8129; }
@@ -133,7 +134,7 @@ a {
     max-width: 1023px;
     min-height: 200px;
     margin: 0 auto;
-    padding: 77px 10px 60px; }
+    padding: 77px 15px 60px; }
     .middle-section .block .container {
       width: 70%; }
       .middle-section .block .container h5 {
@@ -146,6 +147,7 @@ a {
       .middle-section .block .container span {
         display: block;
         font-size: 18px;
+        line-height: 1.7;
         font-style: italic;
         color: #fff;
         margin-bottom: 38px; }

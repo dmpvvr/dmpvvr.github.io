@@ -26,6 +26,7 @@ $maxwidth: 1023px;
 
 .wrapper {
 	width: 100%;
+	min-width: 910px;
 	.header {
 		max-width: $maxwidth;
 		margin: 30px auto 0;
@@ -37,7 +38,7 @@ $maxwidth: 1023px;
 	.logo {
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: 20px;
 		h1 {
 			font: 
 			33px
@@ -185,7 +186,7 @@ $maxwidth: 1023px;
 		max-width: $maxwidth;
 		min-height: 200px;
 		margin: 0 auto;
-		padding: 77px 10px 60px;
+		padding: 77px 15px 60px;
 		.container {
 			width: 70%;
 			h5 {
@@ -199,6 +200,7 @@ $maxwidth: 1023px;
 			span {
 				display: block;
 				font-size: 18px;
+				line-height: 1.7;
 				font-style: italic;
 				color: #fff;
 				margin-bottom: 38px;
