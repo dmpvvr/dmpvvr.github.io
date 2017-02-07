@@ -88,7 +88,7 @@ a {
 
 .services {
   max-width: 1023px;
-  margin: 0 auto; }
+  margin: 0 auto 55px; }
   .services h3 {
     text-transform: uppercase;
     text-align: center;
@@ -106,7 +106,7 @@ a {
       font: 400 30px 'Open Sans', sans-serif;
       color: #3070a8; }
     .services .column span {
-      font: 400 14px 'Open Sans', sans-serif;
+      font: 400 14px/24px 'Open Sans', sans-serif;
       color: #999;
       display: block;
       text-align: justify; }
@@ -123,5 +123,44 @@ a {
     padding-top: 46%;
     background-size: contain;
     margin: 0 auto; }
+
+.middle-section {
+  background: url(../images/middle-section.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  font-family: 'Open Sans', sans-serif; }
+  .middle-section .block {
+    max-width: 1023px;
+    min-height: 200px;
+    margin: 0 auto;
+    padding: 77px 10px 60px; }
+    .middle-section .block .container {
+      width: 70%; }
+      .middle-section .block .container h5 {
+        font-size: 25px;
+        line-height: 1.9;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ee8129;
+        margin-bottom: 12px; }
+      .middle-section .block .container span {
+        display: block;
+        font-size: 18px;
+        font-style: italic;
+        color: #fff;
+        margin-bottom: 38px; }
+      .middle-section .block .container ul .list {
+        font-size: 14px;
+        line-height: 2.2;
+        color: #9d9d9d;
+        padding-left: 30px;
+        padding-bottom: 13px;
+        position: relative; }
+      .middle-section .block .container ul .selected {
+        color: #3070a8; }
+      .middle-section .block .container ul .list::before {
+        content: '\25CF';
+        position: absolute;
+        left: 8px; }
 
 /*# sourceMappingURL=all.css.map */
