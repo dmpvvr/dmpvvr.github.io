@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(pricing.css);
+@import url(testimonials.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700");
 * {
   -webkit-box-sizing: border-box;
@@ -144,14 +145,14 @@ a {
         font-weight: 600;
         text-transform: uppercase;
         color: #ee8129;
-        margin-bottom: 12px; }
+        margin-bottom: 7px; }
       .middle-section .block .container span {
         display: block;
         font-size: 18px;
         line-height: 1.7;
         font-style: italic;
         color: #fff;
-        margin-bottom: 38px; }
+        margin-bottom: 31px; }
       .middle-section .block .container ul .list {
         font-size: 14px;
         line-height: 2.2;
