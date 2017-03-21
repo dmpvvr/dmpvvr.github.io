@@ -1,6 +1,8 @@
+$maxwidth: 1023px;
+
 @import 'reset.css';
 @import 'pricing.css';
-@import 'testimonials.css';
+@import 'testimonials.scss';
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700');
 
@@ -24,7 +26,11 @@ a {
 	float: right;
 }
 
-$maxwidth: 1023px;
+.pull-left {
+	float: left;
+}
+
+
 
 .wrapper {
 	width: 100%;
