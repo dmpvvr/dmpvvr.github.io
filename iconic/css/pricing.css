@@ -1,0 +1,177 @@
+.pricing_wrapper {
+	width: 300px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.pricing h3 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #41525c;
+	padding: 59px 0 70px;
+	font: 
+	600
+	30px
+	'Open Sans', sans-serif;
+}
+
+.pricing_container {
+	border-radius: 5px;
+	text-align: center;
+	width: 100%;
+}
+
+.best_value{
+	-webkit-box-shadow: 0 0 9px 1px rgba(0,0,0,0.2);
+	box-shadow: 0 0 9px 1px rgba(0,0,0,0.2);
+	border: 4px solid #ee8129;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.standard,
+.ultimate {
+	position: absolute;
+	border: 1px solid #e8eaec;
+	top: 13px;
+	z-index: 0;
+	padding-bottom: 20px;
+	width: 300px;
+}
+
+.standard{
+	left: -296px;
+}
+
+.ultimate {
+	right: -296px;
+}
+
+.best_value>.nomination {
+	background: #ee8129;
+	padding: 25px 0;
+}
+
+.standard>.nomination,
+.ultimate>.nomination {
+	border-radius: 5px 5px 0 0;
+	padding: 25px 0 15px;
+}
+
+.standard>.nomination {
+	background: #37c2d3;
+}
+
+.ultimate>.nomination{
+	background: #1cb79a;
+}
+
+/* .pricing .pricing_container .nomination {
+	text-align: center;
+} 
+*/
+
+
+.nomination>span {
+	font: bold 20px Arial,sans-serif;
+	color: #fff;
+}
+
+.name {
+	color: #35495a;
+	font: 22px Arial,sans-serif;
+	display: inline-block;
+	margin: 20px 0 10px;
+}
+
+.price {
+	position: relative;
+	float: left;
+	margin-left: 82px;
+	margin-bottom: 28px;
+	color: #35495a;
+}
+
+.currency, 
+.term {
+	display: inline-block;
+	position: absolute;
+	font: 16px Arial,sans-serif;
+}
+
+.currency {
+	right: 100%;
+	top: 11px;
+}
+
+.term {
+	left: 100%;
+	bottom: 0;
+}
+
+.value {
+	font: bold 70px Arial,sans-serif;
+}
+
+.definition {
+	width: 100%;
+	padding: 0 15px;
+}
+
+.definition li {
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 8px 0 8px 63px;
+	margin-bottom: 2px;
+	text-align: left;
+	color: #888c94;
+	font: bold 14px Arial,sans-serif;
+}
+
+.definition li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 34px;
+	top: 9px;
+	background: url(../images/mark.png) 0 0 no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.definition>li:nth-child(odd) {
+	background: #edf5fd;
+}
+
+.definition>li:nth-child(even) {
+	background: #f5f5f6;
+}
+
+.bttn	{
+	margin: 16px 19px 0;
+}
+
+.enroll {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	font: bold 14px arial;
+	color: #fff;
+}
+
+.best_value .enroll {
+	background: #ee8129;
+}
+
+.standard .enroll,
+.ultimate .enroll {
+	background: #3371a6;
+}
+
+.enroll:focus {
+	outline: none;
+}

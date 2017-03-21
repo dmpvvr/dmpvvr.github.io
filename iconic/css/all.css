@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(pricing.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700");
 * {
   -webkit-box-sizing: border-box;
