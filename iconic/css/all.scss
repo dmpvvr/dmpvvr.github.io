@@ -236,3 +236,110 @@ a {
 }
 
 
+.communication {
+	max-width: $maxwidth;
+	margin: 0 auto;
+	.contacts {
+		font: 
+		600
+		14px/30px
+		'Open Sans', sans-serif;
+		color: #666;
+		margin-top: 40px;
+		.address,
+		.phone,
+		.e-mail { 
+			position: relative;
+			padding-left: 60px;
+		}
+		.phone {
+			margin-top: 10px;
+		}
+		.e-mail {
+			margin-top: 4px;
+		}
+
+	}
+}
+.communication {
+	.address::before,
+	.phone::before,
+	.e-mail::before {
+		content: '';
+		display: block;
+		position: absolute;
+	}
+	.address::before {
+		width: 23px;
+		height: 31px;
+		top: 2px;
+		left: 6px;
+		background:  url(../images/label.png) 0 0 no-repeat;
+	}
+	.phone::before {
+		width: 18px;
+		height: 26px;
+		top: 2px;
+		left: 4px;
+		background:  url(../images/phone.png) 0 0 no-repeat;
+	}
+	.e-mail::before {
+		width: 23px;
+		height: 16px;
+		top: 7px;
+		left: 1px;
+		background:  url(../images/mail.png) 0 0 no-repeat;
+
+	}
+}
+.communication {
+	a {
+		display: block;
+		position: relative;
+		height: 50px;
+		width: 50px;
+		margin-left: 20px;
+		border-radius: 50%;
+		background: url(../images/socials.png) 0 0 no-repeat;
+		&:hover::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: -20px;
+			height: 50px;
+			width: 50px;
+			margin-left: 20px;
+			border-radius: 50%;
+			background: rgba(255,255,255,0.2);
+		}
+	}
+	.social-buttons {
+		margin-top: 30px;
+		& > a:first-child {
+			margin-left: 0;
+		}
+	}
+	.button-fb {
+		background-position: 1px 0;
+	}
+	.button-tw {
+		background-position: -50px 1px;
+
+	}
+	.button-in {
+		background-position: -99px 1px;
+	}
+}
+.footer {
+	width: 100%;
+	text-align: center;
+	min-height: 70px;
+	background: #3070a8;
+	font: 600 14px/30px 'Open Sans', sans-serif;
+	color: #ffffff;
+	padding: 20px;
+	.bold {
+		font-weight: bold;
+	}
+
+}

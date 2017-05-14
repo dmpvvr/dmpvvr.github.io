@@ -9,7 +9,7 @@ Error: Undefined variable: "$maxwidth".
 6: .testimonials {
 7: 	max-width: $maxwidth;
 8: 	margin: 0 auto;
-9: 	padding-bottom: 30px;
+9: 	padding-bottom: 58px;
 10: 	border: 1px solid transparent;
 11: }
 12: 
@@ -62,4 +62,4 @@ C:/Program Files/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$maxwidth\".\A         on line 7 of D:\Work\for_CV\iconic\css\testimonials.scss\A \A 2: 	width: 100%;\A 3: 	background: url(../images/bg-2.jpg) 0 0 repeat;\A 4: }\A 5: \A 6: .testimonials {\A 7: 	max-width: $maxwidth;\A 8: 	margin: 0 auto;\A 9: 	padding-bottom: 30px;\A 10: 	border: 1px solid transparent;\A 11: }\A 12: "; }
+  content: "Error: Undefined variable: \"$maxwidth\".\A         on line 7 of D:\Work\for_CV\iconic\css\testimonials.scss\A \A 2: 	width: 100%;\A 3: 	background: url(../images/bg-2.jpg) 0 0 repeat;\A 4: }\A 5: \A 6: .testimonials {\A 7: 	max-width: $maxwidth;\A 8: 	margin: 0 auto;\A 9: 	padding-bottom: 58px;\A 10: 	border: 1px solid transparent;\A 11: }\A 12: "; }
