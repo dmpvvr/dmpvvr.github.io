@@ -66,6 +66,9 @@ textarea {
   background: #303441;
   border-bottom: 6px solid #373b4a;
   padding: 0px 30px 0px 40px; }
+  .header .header_wrapper {
+    max-width: 1200px;
+    margin: 0 auto; }
   .header h1 {
     color: #fff;
     font-size: 25px;
@@ -139,16 +142,20 @@ textarea {
   background: #f2f2f2;
   padding: 40px;
   margin-bottom: 10px; }
-  .services .block-holder, .about-us .block-holder {
-    margin-left: -20px; }
-  .services *, .about-us * {
-    color: #666d89; }
-  .services h2, .about-us h2 {
-    padding: 20px 0; }
-  .services h3, .about-us h3 {
-    padding: 10px 0; }
-  .services p, .about-us p {
-    margin-bottom: 33px; }
+
+.services .services_wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
+.services .block-holder {
+  margin-left: -20px; }
+.services * {
+  color: #666d89; }
+.services h2 {
+  padding: 20px 0; }
+.services h3 {
+  padding: 10px 0; }
+.services p {
+  margin-bottom: 33px; }
 
 .block-holder > * {
   width: calc(100%/3);
@@ -190,6 +197,9 @@ textarea {
   color: #666d89;
   padding: 60px 40px 65px;
   border-bottom: 6px solid #373b4a; }
+  .portfolio .portfolio_wrapper {
+    max-width: 1200px;
+    margin: 0 auto; }
   .portfolio span {
     margin: 25px 0 18px;
     font-size: 18px;
@@ -229,6 +239,10 @@ textarea {
     width: calc(100%/4); }
     .portfolio-container .img img {
       width: 100%; }
+
+.about-us .about-us_wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
 
 .team {
   margin-top: 46px;
@@ -292,6 +306,9 @@ textarea::placeholder {
 .quote {
   background: #eb5055;
   padding: 40px; }
+  .quote .quote_wrapper {
+    max-width: 1200px;
+    margin: 0 auto; }
   .quote h2,
   .quote p {
     color: #f0d8d9;
@@ -353,6 +370,9 @@ textarea::placeholder {
   .quote .contact .e-mail::before {
     background: url(../images/sprite.png) -27px -2px no-repeat; }
 
+#footer .footer_wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
 #footer .socials {
   display: block;
   height: 100%;
