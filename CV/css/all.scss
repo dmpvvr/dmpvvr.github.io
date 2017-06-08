@@ -1,0 +1,78 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i,600,600i&subset=cyrillic');
+
+$maxwidth: 1200px;
+$header-height: 50px;
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.wrapper {
+	max-width: $maxwidth;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../img/gray.jpg);
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: $header-height;
+	top: 0;
+	left: 0;
+}
+.header_wrapper {
+	max-width: $maxwidth;
+	height: 100%;
+	margin: 0 auto;
+	line-height: $header-height;
+	background-color: rgba(200,200,200,0.5);
+}
+
+.name {
+		font-size: 30px;
+		padding: 0 15px;
+}
+
+.main-nav {
+	.nav {
+		display: block;
+		padding: 0 15px;
+		font-size: 18px;
+		&:hover {
+			background: rgba(200,200,200,0.8);
+		}
+	}
+}
+
+.box {
+	width: 100%;
+	height: 1000px;
+	background: rgba(150,0,0,0.5);
+	margin-top: $header-height;
+}
