@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header {
+	position: relative;
+	&__logo {
+		position: absolute;
+		top: 8.5%;
+		left: 39.3%;
+	}
+}
+
+.full-screen-slider {
+	&__img {
+		width: 100%;
+	}
+}
+
+.logo {
+	width: 21.3%;
+	border-radius: 50%;
+	background: #000;
+	&::before {
+		content: '';
+		padding-top: 100%;
+		float: left;
+	}
+	&__img {
+		width: 62%;
+		position: absolute;
+		top: 31%;
+		left: 19%;
+	}
+}
