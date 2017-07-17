@@ -8,26 +8,181 @@
 </head>
 <body>
 	<div class="wrapper">
+
 		<div class="header">
 			<div class="header_wrapper clearfix">
-				<a class="name pull-left" href="">
+				<a class="name pull-left" href="#">
 					<h1>Дмитрий Пивовар</h1>
 				</a>
 				<nav class="main-nav clearfix">
-					<a class="nav pull-right" href="">Контакты</a>
-					<a class="nav pull-right" href="">Опыт работы</a>
-					<a class="nav pull-right" href="">Образование</a>
-					<a class="nav  pull-right" href="">Навыки</a>
+					<input type="checkbox" id="btn-menu"  />
+					<label for="btn-menu" class="pull-right" ></label>
+					<a class="nav pull-right" href="#contacts">Контакты</a>
+					<a class="nav pull-right" href="#experience">Опыт работы</a>
+					<a class="nav pull-right" href="#education">Образование</a>
+					<a class="nav  pull-right" href="#skills">Навыки</a>
 				</nav>
 			</div><!-- header_wrapper -->
-			
-
 		</div><!-- header -->
+		
+		<a id="basic-data"></a>
+		<div class="container basic-data clearfix">
+			<div class="photo pull-left">
+			</div>
+			<div class="data-wrapper pull-right ">
+				<p class="name bold ">
+					Дмитрий Пивовар
+				</p>
+				<p class="target italic">
+					Цель - получение должности <br />
+					HTML/CSS-верстальщика
+				</p>
+				<p class="phone ">
+					<span class="bold italic">Телефон</span><br />
+					<a href="tel:+380504029417">(050) 402-94-17</a>
+				</p>
+				<p class="e-mail ">
+					<span class="bold italic">E-mail</span><br />
+					<a href="mailto:dm.p@ukr.net">dm.p@ukr.net</a>
+				</p>
+				<div class="socials">
+					<ul class="clearfix">
+						<li class="socials-button fb">
+							<a href="https://www.facebook.com/profile.php?id=100000159027763" target="_blank"></a>
+						</li>
+						<li class="socials-button in">
+							<a href="https://www.linkedin.com/in/dmpivovar/" target="_blank"></a>
+						</li>
+					</ul>
+				</div><!-- socials -->
+			</div><!-- data-wrapper -->
+		</div><!-- basic-data -->
 
+		<a id="skills"></a>
+		<div class="container skills-wrapper italic clearfix">
+			<h3 class="bold">Профессиональные навыки и знания</h3>
+			<div class="block skill pull-left">Уверенное знание HTML</div>
+			<div class="block skill pull-right">Навыки работы с Bootstrap</div>
+			<div class="block skill pull-left">Уверенное знание CSS</div>
+			<div class="block skill pull-right">Базовые знания GIT</div>
+			<div class="block skill pull-left">Навыки использования SCSS</div>
+			<div class="block skill pull-right">Adobe Photoshop</div>
+			<div class="block skill pull-left">Базовые знания JavaScript</div>
+			<div class="block skill pull-right">English - Elementary</div>
+		</div><!-- skills -->
 
-		<div class="box">
-			
-		</div>
+		<a id="education"></a>
+		<div class="container education italic">
+			<h3 class="bold">Образование</h3>
+			<div class="block school clearfix">
+				<div class="date">
+					июнь 2016 - август 2016
+				</div>
+				<div class="school-name pull-right">
+					<span class="bold">UKRAINIAN   IT_SCHOOL</span><br />
+					<span>Front-End: HTML+CSS+JavaScript</span>
+				</div>
+			</div><!-- school -->
+			<div class="block school clearfix">
+				<div class="date">
+					сентябрь 1998 – июнь 2003 
+				</div>
+				<div class="school-name pull-right">
+					<span class="bold">
+						Харьковский государственный технический<br />
+						университет строительства и архитектуры
+					</span><br />
+					<span>
+						- специальность – автоматизированное управление технологическим процессом и производством<br />
+						- диплом магистра с отличием
+					</span>
+				</div>
+			</div><!-- school -->
+			<h4 class="bold"> Дополнительное образование</h4>
+			<div class="block school clearfix">
+				<div class="date">
+					апрель 2017 – настоящее время 
+				</div>
+				<div class="school-name pull-right">
+					<span class="bold">GoIT</span><span> - онлайн курс FrontEnd (HTML/CSS, JavaScript)</span><br />
+				</div>
+			</div><!-- school -->
+			<div class="block school clearfix">
+				<div class="date">
+					март 2016 – июнь 2016 
+				</div>
+				<div class="school-name pull-right">
+					<span class="bold">htmlacademy.ru</span><span> - онлайн курс</span><br />
+					<span class="bold">site-do.ru</span><span> - онлайн курс</span>
+				</div>
+			</div><!-- school -->
+			<h4 class="bold">Примеры вёрстки</h4>
+			<div class="block examples clearfix">
+				<div class="sample pull-left">
+					<a class="singolo" href="https://dmpvvr.github.io/singolo/" target="_blank"></a>
+				</div>
+				<div class="sample pull-left">
+					<a class="iconic" href="https://dmpvvr.github.io/iconic/" target="_blank"></a>
+				</div>
+				
+
+			</div><!-- school -->
+
+		</div><!-- education -->
+
+		<a id="experience"></a>
+		<div class="container experience italic">
+			<h3 class="bold">Опыт работы</h3>
+			<div class="block work-place clearfix">
+				<div class="date">
+					август 2014 - настоящее время
+				</div>
+				<div class="work-name pull-right">
+					<span class="bold">ООО "КП Вода"</span>
+					<span> (поверка и установка счётчиков воды для населения)</span><br /> 
+					<span class="bold">Руководитель отдела<br />Инженер</span>
+				</div>
+			</div><!-- work-place -->
+			<div class="block work-place clearfix">
+				<div class="date">
+					февраль 2006 - май 2014
+				</div>
+				<div class="work-name pull-right">
+					<span class="bold">ООО "Экономэнерго"</span>
+					<span>(оптовая торговля нефтепродуктами)</span><br /> 
+					<span class="bold">Руководитель транспортного отдела<br />Менеджер по продажам</span>
+				</div>
+			</div><!-- work-place -->
+		</div><!-- experience -->
+
+		<a id="contacts"></a>
+		<div class="container">
+			<h3 class="bold italic">Контакты</h3>
+			<div class="block contacts clearfix">
+				<div class="fio pull-left">
+					<span class="italic">Дмитрий Пивовар</span>
+				</div>
+				<ul class="socials pull-right clearfix">
+					<li class="socials-button fb">
+						<a href="https://www.facebook.com/profile.php?id=100000159027763" target="_blank"></a>
+					</li>
+					<li class="socials-button in">
+						<a href="https://www.linkedin.com/in/dmpivovar/" target="_blank"></a>
+					</li>
+				</ul>
+				<div class="contact-data pull-right clearfix">
+					<p class="phone pull-left">
+						<span class="bold italic">Телефон:</span><!-- <br /> -->
+						<a href="tel:+380504029417">(050) 402-94-17</a>
+					</p>
+					<p class="e-mail pull-right">
+						<span class="bold italic">E-mail:</span><!-- <br /> -->
+						<a href="mailto:dm.p@ukr.net">dm.p@ukr.net</a>
+					</p>
+				</div><!-- contact-data -->
+			</div><!-- contacts -->
+		</div><!-- container -->
+
 	</div><!-- wrapper -->
 </body>
 </html>
